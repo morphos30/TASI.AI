@@ -1,0 +1,43 @@
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                      y   No. Observations:                  154
+Model:               SARIMAX(0, 1, 0)   Log Likelihood                -438.736
+Date:                Wed, 08 Jul 2020   AIC                            879.472
+Time:                        17:16:30   BIC                            882.502
+Sample:                             0   HQIC                           880.703
+                                - 154                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+sigma2        18.1239      0.600     30.192      0.000      16.947      19.300
+===================================================================================
+Ljung-Box (Q):                       37.73   Jarque-Bera (JB):              3166.97
+Prob(Q):                              0.57   Prob(JB):                         0.00
+Heteroskedasticity (H):               5.25   Skew:                            -2.03
+Prob(H) (two-sided):                  0.00   Kurtosis:                        24.92
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                      y   No. Observations:                  154
+Model:               SARIMAX(0, 1, 0)   Log Likelihood                -438.736
+Date:                Thu, 09 Jul 2020   AIC                            879.472
+Time:                        18:14:39   BIC                            882.502
+Sample:                             0   HQIC                           880.703
+                                - 154                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+sigma2        18.1239      0.600     30.192      0.000      16.947      19.300
+===================================================================================
+Ljung-Box (Q):                       37.73   Jarque-Bera (JB):              3166.97
+Prob(Q):                              0.57   Prob(JB):                         0.00
+Heteroskedasticity (H):               5.25   Skew:                            -2.03
+Prob(H) (two-sided):                  0.00   Kurtosis:                        24.92
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
