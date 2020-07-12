@@ -23,4 +23,29 @@ Prob(H) (two-sided):                  0.00   Kurtosis:                       118
 ===================================================================================
 
 Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                      y   No. Observations:                 1080
+Model:               SARIMAX(0, 1, 3)   Log Likelihood               -5161.304
+Date:                Sun, 12 Jul 2020   AIC                          10332.609
+Time:                        08:55:39   BIC                          10357.528
+Sample:                             0   HQIC                         10342.045
+                               - 1080                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept      1.8337      1.119      1.638      0.101      -0.360       4.028
+ma.L1         -0.0732      0.021     -3.470      0.001      -0.114      -0.032
+ma.L2          0.0284      0.022      1.297      0.194      -0.014       0.071
+ma.L3          0.0717      0.020      3.506      0.000       0.032       0.112
+sigma2       836.1854      5.905    141.614      0.000     824.612     847.758
+===================================================================================
+Ljung-Box (Q):                       69.42   Jarque-Bera (JB):            606564.99
+Prob(Q):                              0.00   Prob(JB):                         0.00
+Heteroskedasticity (H):              10.62   Skew:                             6.09
+Prob(H) (two-sided):                  0.00   Kurtosis:                       118.51
+===================================================================================
+
+Warnings:
 [1] Covariance matrix calculated using the outer product of gradients (complex-step).
